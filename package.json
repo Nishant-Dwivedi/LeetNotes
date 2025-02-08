@@ -1,0 +1,25 @@
+{
+  "name": "leetnotes",
+  "version": "1.0.0",
+  "description": "backend for the browser extension - LeetNotes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leetnotes",
+    "extension",
+    "firefox",
+    "chrome"
+  ],
+  "author": "Nishant Dwivedi",
+  "license": "MIT",
+  "dependencies": {
+    "connect-sqlite3": "^0.9.15",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "nodemon": "^3.1.7",
+    "sqlite3": "^5.1.7"
+  }
+}
